@@ -1,0 +1,2 @@
+eDO_core_msgs:eDO_description:eDO_manual_ctrl:eDO_moveit:edo_gazebo:edo_gripper:edo_gripper_moveit
+-DCATKIN_DEVEL_PREFIX=/home/nicola/real_edo_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nicola/real_edo_catkin_ws/install -G Unix Makefiles

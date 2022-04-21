@@ -1,0 +1,2 @@
+beginner_tutorials:eDO_description
+-DCATKIN_DEVEL_PREFIX=/home/nicola/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nicola/catkin_ws/install -G Unix Makefiles
