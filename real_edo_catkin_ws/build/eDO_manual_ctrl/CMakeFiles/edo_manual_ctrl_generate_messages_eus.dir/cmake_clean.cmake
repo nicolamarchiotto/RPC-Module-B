@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/nicola/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l"
+  "/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l"
   "CMakeFiles/edo_manual_ctrl_generate_messages_eus"
 )
 

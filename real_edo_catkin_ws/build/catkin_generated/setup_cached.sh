@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/nicola/real_edo_catkin_ws/build'
+export PWD='/home/nicola/rpc_module_b/real_edo_catkin_ws/build'

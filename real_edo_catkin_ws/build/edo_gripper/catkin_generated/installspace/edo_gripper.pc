@@ -1,0 +1,8 @@
+prefix=/home/nicola/rpc_module_b/real_edo_catkin_ws/install
+
+Name: edo_gripper
+Description: Description of edo_gripper
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl
+# Install script for directory: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nicola/real_edo_catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nicola/rpc_module_b/real_edo_catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,37 +38,37 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/edo_manual_ctrl/cmake" TYPE FILE FILES "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrl-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/edo_manual_ctrl/cmake" TYPE FILE FILES "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrl-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nicola/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/nicola/real_edo_catkin_ws/devel/lib/python3/dist-packages/edo_manual_ctrl")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/lib/python3/dist-packages/edo_manual_ctrl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/nicola/real_edo_catkin_ws/devel/lib/python3/dist-packages/edo_manual_ctrl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/lib/python3/dist-packages/edo_manual_ctrl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrl.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrl.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/edo_manual_ctrl/cmake" TYPE FILE FILES "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrl-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/edo_manual_ctrl/cmake" TYPE FILE FILES "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrl-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/edo_manual_ctrl/cmake" TYPE FILE FILES
-    "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrlConfig.cmake"
-    "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrlConfig-version.cmake"
+    "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrlConfig.cmake"
+    "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/catkin_generated/installspace/edo_manual_ctrlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/edo_manual_ctrl" TYPE FILE FILES "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/edo_manual_ctrl" TYPE FILE FILES "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/package.xml")
 endif()
 

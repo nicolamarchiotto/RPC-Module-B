@@ -43,25 +43,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/real_edo_catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
+CMAKE_BINARY_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/build
 
 # Utility rule file for edo_manual_ctrl_generate_messages_eus.
 
 # Include the progress variables for this target.
 include eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/progress.make
 
-eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus: /home/nicola/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l
+eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l
 
 
-/home/nicola/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for edo_manual_ctrl"
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/nicola/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl edo_manual_ctrl edo_core_msgs std_msgs
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for edo_manual_ctrl"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl edo_manual_ctrl edo_core_msgs std_msgs
 
 edo_manual_ctrl_generate_messages_eus: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus
-edo_manual_ctrl_generate_messages_eus: /home/nicola/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l
+edo_manual_ctrl_generate_messages_eus: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/share/roseus/ros/edo_manual_ctrl/manifest.l
 edo_manual_ctrl_generate_messages_eus: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/build.make
 
 .PHONY : edo_manual_ctrl_generate_messages_eus
@@ -72,10 +72,10 @@ eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/build: edo_
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/build
 
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/clean:
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl && $(CMAKE_COMMAND) -P CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl && $(CMAKE_COMMAND) -P CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/clean
 
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/depend:
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/real_edo_catkin_ws/src /home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl /home/nicola/real_edo_catkin_ws/build /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/rpc_module_b/real_edo_catkin_ws/src /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl /home/nicola/rpc_module_b/real_edo_catkin_ws/build /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/depend
 

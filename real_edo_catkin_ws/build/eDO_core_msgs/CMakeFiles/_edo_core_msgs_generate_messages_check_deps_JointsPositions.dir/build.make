@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/real_edo_catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
+CMAKE_BINARY_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/build
 
 # Utility rule file for _edo_core_msgs_generate_messages_check_deps_JointsPositions.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
 include eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/progress.make
 
 eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions:
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py edo_core_msgs /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg 
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py edo_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg 
 
 _edo_core_msgs_generate_messages_check_deps_JointsPositions: eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions
 _edo_core_msgs_generate_messages_check_deps_JointsPositions: eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/build.make
@@ -67,10 +67,10 @@ eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPosit
 .PHONY : eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/build
 
 eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/clean:
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/cmake_clean.cmake
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/cmake_clean.cmake
 .PHONY : eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/clean
 
 eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/depend:
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/real_edo_catkin_ws/src /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs /home/nicola/real_edo_catkin_ws/build /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/rpc_module_b/real_edo_catkin_ws/src /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/build /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_JointsPositions.dir/depend
 

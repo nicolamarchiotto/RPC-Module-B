@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/real_edo_catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
+CMAKE_BINARY_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/build
 
 # Utility rule file for _edo_core_msgs_generate_messages_check_deps_MachineState.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
 include eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/progress.make
 
 eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState:
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py edo_core_msgs /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/MachineState.msg 
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py edo_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/MachineState.msg 
 
 _edo_core_msgs_generate_messages_check_deps_MachineState: eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState
 _edo_core_msgs_generate_messages_check_deps_MachineState: eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/build.make
@@ -67,10 +67,10 @@ eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineStat
 .PHONY : eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/build
 
 eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/clean:
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/cmake_clean.cmake
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/cmake_clean.cmake
 .PHONY : eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/clean
 
 eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/depend:
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/real_edo_catkin_ws/src /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs /home/nicola/real_edo_catkin_ws/build /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/rpc_module_b/real_edo_catkin_ws/src /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/build /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : eDO_core_msgs/CMakeFiles/_edo_core_msgs_generate_messages_check_deps_MachineState.dir/depend
 

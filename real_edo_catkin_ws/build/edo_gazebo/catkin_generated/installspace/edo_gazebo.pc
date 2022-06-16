@@ -1,0 +1,8 @@
+prefix=/home/nicola/rpc_module_b/real_edo_catkin_ws/install
+
+Name: edo_gazebo
+Description: Description of edo_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

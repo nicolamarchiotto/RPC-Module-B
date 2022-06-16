@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.cpp" "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.o"
-  "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.cpp" "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.o"
-  "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.cpp" "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.o"
-  "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_manual_ctrl.cpp" "/home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.o"
+  "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.cpp" "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.o"
+  "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.cpp" "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.o"
+  "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.cpp" "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.o"
+  "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_manual_ctrl.cpp" "/home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include"
-  "/home/nicola/real_edo_catkin_ws/devel/include"
+  "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include"
+  "/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

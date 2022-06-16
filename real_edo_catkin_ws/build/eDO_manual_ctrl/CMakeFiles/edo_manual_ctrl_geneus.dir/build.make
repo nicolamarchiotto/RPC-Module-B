@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/real_edo_catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
+CMAKE_BINARY_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/build
 
 # Utility rule file for edo_manual_ctrl_geneus.
 
@@ -63,10 +63,10 @@ eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/build: edo_manual_ctrl_gen
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/build
 
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/clean:
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl && $(CMAKE_COMMAND) -P CMakeFiles/edo_manual_ctrl_geneus.dir/cmake_clean.cmake
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl && $(CMAKE_COMMAND) -P CMakeFiles/edo_manual_ctrl_geneus.dir/cmake_clean.cmake
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/clean
 
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/depend:
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/real_edo_catkin_ws/src /home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl /home/nicola/real_edo_catkin_ws/build /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/rpc_module_b/real_edo_catkin_ws/src /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl /home/nicola/rpc_module_b/real_edo_catkin_ws/build /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/depend
 

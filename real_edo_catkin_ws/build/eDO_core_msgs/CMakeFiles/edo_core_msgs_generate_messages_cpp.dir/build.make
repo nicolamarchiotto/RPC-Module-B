@@ -43,357 +43,357 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/real_edo_catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
+CMAKE_BINARY_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/build
 
 # Utility rule file for edo_core_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/progress.make
 
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h
-eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h
+eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h
 
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointState.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from edo_core_msgs/JointState.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointState.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointState.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from edo_core_msgs/JointState.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointState.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointStateArray.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointState.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from edo_core_msgs/JointStateArray.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointStateArray.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointStateArray.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointState.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from edo_core_msgs/JointStateArray.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointStateArray.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControl.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from edo_core_msgs/JointControl.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControl.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControl.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from edo_core_msgs/JointControl.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControl.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControlArray.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControl.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from edo_core_msgs/JointControlArray.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControlArray.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControlArray.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControl.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from edo_core_msgs/JointControlArray.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointControlArray.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementCommand.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Point.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Frame.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Payload.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from edo_core_msgs/MovementCommand.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementCommand.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementCommand.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Payload.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Frame.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Point.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from edo_core_msgs/MovementCommand.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementCommand.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementFeedback.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from edo_core_msgs/MovementFeedback.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementFeedback.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementFeedback.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from edo_core_msgs/MovementFeedback.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/MovementFeedback.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfiguration.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from edo_core_msgs/JointConfiguration.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfiguration.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfiguration.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from edo_core_msgs/JointConfiguration.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfiguration.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointInit.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from edo_core_msgs/JointInit.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointInit.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointInit.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from edo_core_msgs/JointInit.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointInit.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfigurationArray.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfiguration.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from edo_core_msgs/JointConfigurationArray.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfigurationArray.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfigurationArray.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfiguration.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from edo_core_msgs/JointConfigurationArray.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointConfigurationArray.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointCalibration.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from edo_core_msgs/JointCalibration.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointCalibration.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointCalibration.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from edo_core_msgs/JointCalibration.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointCalibration.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointReset.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from edo_core_msgs/JointReset.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointReset.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointReset.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from edo_core_msgs/JointReset.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointReset.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from edo_core_msgs/CartesianPose.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from edo_core_msgs/CartesianPose.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from edo_core_msgs/JointsPositions.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from edo_core_msgs/JointsPositions.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointMonitoring.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from edo_core_msgs/JointMonitoring.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointMonitoring.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointMonitoring.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from edo_core_msgs/JointMonitoring.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointMonitoring.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/MachineState.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from edo_core_msgs/MachineState.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/MachineState.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/MachineState.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from edo_core_msgs/MachineState.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/MachineState.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from edo_core_msgs/NodeSwVersion.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from edo_core_msgs/NodeSwVersion.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersionArray.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from edo_core_msgs/NodeSwVersionArray.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersionArray.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersionArray.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from edo_core_msgs/NodeSwVersionArray.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersionArray.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersion.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from edo_core_msgs/JointFwVersion.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersion.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersion.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from edo_core_msgs/JointFwVersion.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersion.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersionArray.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersion.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from edo_core_msgs/JointFwVersionArray.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersionArray.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersionArray.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersion.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from edo_core_msgs/JointFwVersionArray.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointFwVersionArray.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Point.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from edo_core_msgs/Point.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Point.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Point.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from edo_core_msgs/Point.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Point.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Frame.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from edo_core_msgs/Frame.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Frame.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Frame.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from edo_core_msgs/Frame.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Frame.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/SystemCommand.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from edo_core_msgs/SystemCommand.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/SystemCommand.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/SystemCommand.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from edo_core_msgs/SystemCommand.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/SystemCommand.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionThreshold.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from edo_core_msgs/CollisionThreshold.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionThreshold.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionThreshold.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from edo_core_msgs/CollisionThreshold.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionThreshold.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionAlgoToState.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from edo_core_msgs/CollisionAlgoToState.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionAlgoToState.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionAlgoToState.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from edo_core_msgs/CollisionAlgoToState.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CollisionAlgoToState.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/BrakesCheckAck.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from edo_core_msgs/BrakesCheckAck.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/BrakesCheckAck.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/BrakesCheckAck.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from edo_core_msgs/BrakesCheckAck.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/BrakesCheckAck.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Payload.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from edo_core_msgs/Payload.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Payload.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Payload.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from edo_core_msgs/Payload.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Payload.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppStateArray.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppState.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from edo_core_msgs/AppStateArray.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppStateArray.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppStateArray.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppState.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from edo_core_msgs/AppStateArray.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppStateArray.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppState.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from edo_core_msgs/AppState.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppState.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppState.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from edo_core_msgs/AppState.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/AppState.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointValue.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from edo_core_msgs/JointValue.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointValue.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointValue.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from edo_core_msgs/JointValue.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointValue.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Pen.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from edo_core_msgs/Pen.msg"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/Pen.msg -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Pen.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from edo_core_msgs/Pen.msg"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/Pen.msg -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/JointsNumber.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from edo_core_msgs/JointsNumber.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/JointsNumber.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/JointsNumber.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from edo_core_msgs/JointsNumber.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/JointsNumber.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/DirectKinematics.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from edo_core_msgs/DirectKinematics.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/DirectKinematics.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/DirectKinematics.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from edo_core_msgs/DirectKinematics.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/DirectKinematics.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/InverseKinematics.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from edo_core_msgs/InverseKinematics.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/InverseKinematics.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/InverseKinematics.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/JointsPositions.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/CartesianPose.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from edo_core_msgs/InverseKinematics.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/InverseKinematics.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/SoftwareVersion.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersionArray.msg
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from edo_core_msgs/SoftwareVersion.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/SoftwareVersion.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/SoftwareVersion.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersionArray.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg/NodeSwVersion.msg
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from edo_core_msgs/SoftwareVersion.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/SoftwareVersion.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/ControlSwitch.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from edo_core_msgs/ControlSwitch.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/ControlSwitch.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/ControlSwitch.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from edo_core_msgs/ControlSwitch.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/ControlSwitch.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/SystemCommandSrv.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from edo_core_msgs/SystemCommandSrv.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/SystemCommandSrv.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/SystemCommandSrv.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from edo_core_msgs/SystemCommandSrv.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/SystemCommandSrv.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/LoadConfigurationFile.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from edo_core_msgs/LoadConfigurationFile.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/LoadConfigurationFile.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/LoadConfigurationFile.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from edo_core_msgs/LoadConfigurationFile.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/LoadConfigurationFile.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/ToolConfiguration.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from edo_core_msgs/ToolConfiguration.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/ToolConfiguration.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/ToolConfiguration.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from edo_core_msgs/ToolConfiguration.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/ToolConfiguration.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/CalibCounter.srv
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from edo_core_msgs/CalibCounter.srv"
-	cd /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/srv/CalibCounter.srv -Iedo_core_msgs:/home/nicola/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/CalibCounter.srv
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from edo_core_msgs/CalibCounter.srv"
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs && /home/nicola/rpc_module_b/real_edo_catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/srv/CalibCounter.srv -Iedo_core_msgs:/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p edo_core_msgs -o /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 edo_core_msgs_generate_messages_cpp: eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h
-edo_core_msgs_generate_messages_cpp: /home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControl.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointControlArray.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfiguration.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointConfigurationArray.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsPositions.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointMonitoring.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersion.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/NodeSwVersionArray.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersion.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointFwVersionArray.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommand.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionThreshold.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CollisionAlgoToState.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/BrakesCheckAck.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppStateArray.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/AppState.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointValue.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Pen.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointsNumber.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/DirectKinematics.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/InverseKinematics.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SoftwareVersion.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ControlSwitch.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/SystemCommandSrv.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/LoadConfigurationFile.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/ToolConfiguration.h
+edo_core_msgs_generate_messages_cpp: /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CalibCounter.h
 edo_core_msgs_generate_messages_cpp: eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : edo_core_msgs_generate_messages_cpp
@@ -404,10 +404,10 @@ eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/build: edo_core
 .PHONY : eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/build
 
 eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/clean:
-	cd /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs && $(CMAKE_COMMAND) -P CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs && $(CMAKE_COMMAND) -P CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/clean
 
 eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/depend:
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/real_edo_catkin_ws/src /home/nicola/real_edo_catkin_ws/src/eDO_core_msgs /home/nicola/real_edo_catkin_ws/build /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs /home/nicola/real_edo_catkin_ws/build/eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/rpc_module_b/real_edo_catkin_ws/src /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/build /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : eDO_core_msgs/CMakeFiles/edo_core_msgs_generate_messages_cpp.dir/depend
 

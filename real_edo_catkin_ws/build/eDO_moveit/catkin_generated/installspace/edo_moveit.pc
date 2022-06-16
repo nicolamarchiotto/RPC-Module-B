@@ -1,0 +1,8 @@
+prefix=/home/nicola/rpc_module_b/real_edo_catkin_ws/install
+
+Name: edo_moveit
+Description: Description of edo_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

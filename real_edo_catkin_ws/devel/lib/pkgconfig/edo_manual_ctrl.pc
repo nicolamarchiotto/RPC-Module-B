@@ -1,8 +1,8 @@
-prefix=/home/nicola/real_edo_catkin_ws/devel
+prefix=/home/nicola/rpc_module_b/real_edo_catkin_ws/devel
 
 Name: edo_manual_ctrl
 Description: Description of edo_manual_ctrl
 Version: 0.0.0
-Cflags: -I/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include
+Cflags: -I/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime edo_core_msgs std_msgs

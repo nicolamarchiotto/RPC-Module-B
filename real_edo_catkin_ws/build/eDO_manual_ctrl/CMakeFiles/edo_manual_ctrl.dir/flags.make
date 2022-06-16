@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"edo_manual_ctrl\"
 
-CXX_INCLUDES = -I/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include -I/home/nicola/real_edo_catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include -I/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

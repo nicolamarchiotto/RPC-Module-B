@@ -67,14 +67,14 @@ set(edo_manual_ctrl_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(edo_manual_ctrl_SOURCE_PREFIX /home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl)
-  set(edo_manual_ctrl_DEVEL_PREFIX /home/nicola/real_edo_catkin_ws/devel)
+  set(edo_manual_ctrl_SOURCE_PREFIX /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl)
+  set(edo_manual_ctrl_DEVEL_PREFIX /home/nicola/rpc_module_b/real_edo_catkin_ws/devel)
   set(edo_manual_ctrl_INSTALL_PREFIX "")
   set(edo_manual_ctrl_PREFIX ${edo_manual_ctrl_DEVEL_PREFIX})
 else()
   set(edo_manual_ctrl_SOURCE_PREFIX "")
   set(edo_manual_ctrl_DEVEL_PREFIX "")
-  set(edo_manual_ctrl_INSTALL_PREFIX /home/nicola/real_edo_catkin_ws/install)
+  set(edo_manual_ctrl_INSTALL_PREFIX /home/nicola/rpc_module_b/real_edo_catkin_ws/install)
   set(edo_manual_ctrl_PREFIX ${edo_manual_ctrl_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nicola/real_edo_catkin_ws/install/lib;/home/nicola/real_edo_catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/nicola/rpc_module_b/real_edo_catkin_ws/install/lib;/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

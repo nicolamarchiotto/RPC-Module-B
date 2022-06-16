@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/CartesianPose.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Frame.h
 string
 -
 vector
@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointCalibration.h
 string
 -
 vector
@@ -54,7 +54,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointInit.h
 string
 -
 vector
@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointReset.h
 string
 -
 vector
@@ -86,7 +86,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointState.h
 string
 -
 vector
@@ -102,7 +102,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/JointStateArray.h
 string
 -
 vector
@@ -120,7 +120,7 @@ ros/message_operations.h
 edo_core_msgs/JointState.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MachineState.h
 string
 -
 vector
@@ -136,7 +136,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementCommand.h
 string
 -
 vector
@@ -162,7 +162,7 @@ edo_core_msgs/Frame.h
 edo_core_msgs/Payload.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/MovementFeedback.h
 string
 -
 vector
@@ -178,7 +178,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Payload.h
 string
 -
 vector
@@ -194,7 +194,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/nicola/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include/edo_core_msgs/Point.h
 string
 -
 vector
@@ -212,67 +212,67 @@ ros/message_operations.h
 edo_core_msgs/CartesianPose.h
 -
 
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/DataDisplay.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/DataDisplay.h
 ros/ros.h
 -
 edo_core_msgs/CartesianPose.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/CartesianPose.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/CartesianPose.h
 edo_core_msgs/MachineState.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MachineState.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MachineState.h
 edo_core_msgs/JointStateArray.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/JointStateArray.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/JointStateArray.h
 iostream
 -
 
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/MovementCommandQueue.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/MovementCommandQueue.h
 ros/ros.h
 -
 edo_core_msgs/MovementCommand.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MovementCommand.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MovementCommand.h
 edo_core_msgs/MovementFeedback.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MovementFeedback.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MovementFeedback.h
 iostream
 -
 queue
 -
 
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/StateChecker.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/StateChecker.h
 ros/ros.h
 -
 edo_core_msgs/MachineState.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MachineState.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include/edo_core_msgs/MachineState.h
 iostream
 -
 
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.cpp
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.cpp
 DataDisplay.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.h
 
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.cpp
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.cpp
 MovementCommandQueue.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.h
 
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.cpp
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.cpp
 StateChecker.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.h
 
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_manual_ctrl.cpp
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_manual_ctrl.cpp
 ros/ros.h
 -
 MovementCommandQueue.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/MovementCommandQueue.h
 DataDisplay.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/DataDisplay.h
 StateChecker.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/StateChecker.h
 edo_core_msgs/MovementCommand.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/MovementCommand.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/MovementCommand.h
 edo_core_msgs/JointCalibration.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/JointCalibration.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/JointCalibration.h
 edo_core_msgs/JointReset.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/JointReset.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/JointReset.h
 edo_core_msgs/JointInit.h
-/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/JointInit.h
+/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/src/edo_core_msgs/JointInit.h
 thread
 -
 chrono

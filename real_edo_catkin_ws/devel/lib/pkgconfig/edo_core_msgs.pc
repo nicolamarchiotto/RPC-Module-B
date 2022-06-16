@@ -1,8 +1,8 @@
-prefix=/home/nicola/real_edo_catkin_ws/devel
+prefix=/home/nicola/rpc_module_b/real_edo_catkin_ws/devel
 
 Name: edo_core_msgs
 Description: Description of edo_core_msgs
 Version: 3.1.2
-Cflags: -I/home/nicola/real_edo_catkin_ws/devel/include
+Cflags: -I/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: geometry_msgs message_generation roscpp std_msgs

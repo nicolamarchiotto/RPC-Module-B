@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/real_edo_catkin_ws/src
+CMAKE_SOURCE_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/real_edo_catkin_ws/build
+CMAKE_BINARY_DIR = /home/nicola/rpc_module_b/real_edo_catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/real_edo_catkin_ws/build/CMakeFiles /home/nicola/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/progress.marks
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/real_edo_catkin_ws/build/CMakeFiles 0
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles /home/nicola/rpc_module_b/real_edo_catkin_ws/build/eDO_manual_ctrl/CMakeFiles/progress.marks
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/rpc_module_b/real_edo_catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/clean
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/preinstall
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/preinstall
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ edo_manual_ctrl_geneus: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/ru
 
 # fast build rule for target.
 edo_manual_ctrl_geneus/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_geneus.dir/build
 .PHONY : edo_manual_ctrl_geneus/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ edo_manual_ctrl_gencpp: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/ru
 
 # fast build rule for target.
 edo_manual_ctrl_gencpp/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gencpp.dir/build
 .PHONY : edo_manual_ctrl_gencpp/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ edo_manual_ctrl_generate_messages_cpp: eDO_manual_ctrl/CMakeFiles/edo_manual_ctr
 
 # fast build rule for target.
 edo_manual_ctrl_generate_messages_cpp/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_cpp.dir/build
 .PHONY : edo_manual_ctrl_generate_messages_cpp/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ edo_manual_ctrl_generate_messages_eus: eDO_manual_ctrl/CMakeFiles/edo_manual_ctr
 
 # fast build rule for target.
 edo_manual_ctrl_generate_messages_eus/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_eus.dir/build
 .PHONY : edo_manual_ctrl_generate_messages_eus/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ edo_manual_ctrl_generate_messages_lisp: eDO_manual_ctrl/CMakeFiles/edo_manual_ct
 
 # fast build rule for target.
 edo_manual_ctrl_generate_messages_lisp/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_lisp.dir/build
 .PHONY : edo_manual_ctrl_generate_messages_lisp/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ edo_manual_ctrl_generate_messages_py: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl
 
 # fast build rule for target.
 edo_manual_ctrl_generate_messages_py/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_py.dir/build
 .PHONY : edo_manual_ctrl_generate_messages_py/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ edo_manual_ctrl_genlisp: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/
 
 # fast build rule for target.
 edo_manual_ctrl_genlisp/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genlisp.dir/build
 .PHONY : edo_manual_ctrl_genlisp/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ edo_manual_ctrl_generate_messages_nodejs: eDO_manual_ctrl/CMakeFiles/edo_manual_
 
 # fast build rule for target.
 edo_manual_ctrl_generate_messages_nodejs/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages_nodejs.dir/build
 .PHONY : edo_manual_ctrl_generate_messages_nodejs/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ edo_manual_ctrl_generate_messages: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_ge
 
 # fast build rule for target.
 edo_manual_ctrl_generate_messages/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_generate_messages.dir/build
 .PHONY : edo_manual_ctrl_generate_messages/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ edo_manual_ctrl_gennodejs: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.
 
 # fast build rule for target.
 edo_manual_ctrl_gennodejs/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_gennodejs.dir/build
 .PHONY : edo_manual_ctrl_gennodejs/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ edo_manual_ctrl_genpy: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/rule
 
 # fast build rule for target.
 edo_manual_ctrl_genpy/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl_genpy.dir/build
 .PHONY : edo_manual_ctrl_genpy/fast
 
 # Convenience name for target.
 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/rule:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/rule
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/rule
 .PHONY : eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/rule
 
 # Convenience name for target.
@@ -344,7 +344,7 @@ edo_manual_ctrl: eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/rule
 
 # fast build rule for target.
 edo_manual_ctrl/fast:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build
 .PHONY : edo_manual_ctrl/fast
 
 src/DataDisplay.o: src/DataDisplay.cpp.o
@@ -353,7 +353,7 @@ src/DataDisplay.o: src/DataDisplay.cpp.o
 
 # target to build an object file
 src/DataDisplay.cpp.o:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.o
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.o
 .PHONY : src/DataDisplay.cpp.o
 
 src/DataDisplay.i: src/DataDisplay.cpp.i
@@ -362,7 +362,7 @@ src/DataDisplay.i: src/DataDisplay.cpp.i
 
 # target to preprocess a source file
 src/DataDisplay.cpp.i:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.i
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.i
 .PHONY : src/DataDisplay.cpp.i
 
 src/DataDisplay.s: src/DataDisplay.cpp.s
@@ -371,7 +371,7 @@ src/DataDisplay.s: src/DataDisplay.cpp.s
 
 # target to generate assembly for a file
 src/DataDisplay.cpp.s:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.s
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/DataDisplay.cpp.s
 .PHONY : src/DataDisplay.cpp.s
 
 src/MovementCommandQueue.o: src/MovementCommandQueue.cpp.o
@@ -380,7 +380,7 @@ src/MovementCommandQueue.o: src/MovementCommandQueue.cpp.o
 
 # target to build an object file
 src/MovementCommandQueue.cpp.o:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.o
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.o
 .PHONY : src/MovementCommandQueue.cpp.o
 
 src/MovementCommandQueue.i: src/MovementCommandQueue.cpp.i
@@ -389,7 +389,7 @@ src/MovementCommandQueue.i: src/MovementCommandQueue.cpp.i
 
 # target to preprocess a source file
 src/MovementCommandQueue.cpp.i:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.i
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.i
 .PHONY : src/MovementCommandQueue.cpp.i
 
 src/MovementCommandQueue.s: src/MovementCommandQueue.cpp.s
@@ -398,7 +398,7 @@ src/MovementCommandQueue.s: src/MovementCommandQueue.cpp.s
 
 # target to generate assembly for a file
 src/MovementCommandQueue.cpp.s:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.s
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/MovementCommandQueue.cpp.s
 .PHONY : src/MovementCommandQueue.cpp.s
 
 src/StateChecker.o: src/StateChecker.cpp.o
@@ -407,7 +407,7 @@ src/StateChecker.o: src/StateChecker.cpp.o
 
 # target to build an object file
 src/StateChecker.cpp.o:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.o
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.o
 .PHONY : src/StateChecker.cpp.o
 
 src/StateChecker.i: src/StateChecker.cpp.i
@@ -416,7 +416,7 @@ src/StateChecker.i: src/StateChecker.cpp.i
 
 # target to preprocess a source file
 src/StateChecker.cpp.i:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.i
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.i
 .PHONY : src/StateChecker.cpp.i
 
 src/StateChecker.s: src/StateChecker.cpp.s
@@ -425,7 +425,7 @@ src/StateChecker.s: src/StateChecker.cpp.s
 
 # target to generate assembly for a file
 src/StateChecker.cpp.s:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.s
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/StateChecker.cpp.s
 .PHONY : src/StateChecker.cpp.s
 
 src/edo_manual_ctrl.o: src/edo_manual_ctrl.cpp.o
@@ -434,7 +434,7 @@ src/edo_manual_ctrl.o: src/edo_manual_ctrl.cpp.o
 
 # target to build an object file
 src/edo_manual_ctrl.cpp.o:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.o
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.o
 .PHONY : src/edo_manual_ctrl.cpp.o
 
 src/edo_manual_ctrl.i: src/edo_manual_ctrl.cpp.i
@@ -443,7 +443,7 @@ src/edo_manual_ctrl.i: src/edo_manual_ctrl.cpp.i
 
 # target to preprocess a source file
 src/edo_manual_ctrl.cpp.i:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.i
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.i
 .PHONY : src/edo_manual_ctrl.cpp.i
 
 src/edo_manual_ctrl.s: src/edo_manual_ctrl.cpp.s
@@ -452,7 +452,7 @@ src/edo_manual_ctrl.s: src/edo_manual_ctrl.cpp.s
 
 # target to generate assembly for a file
 src/edo_manual_ctrl.cpp.s:
-	cd /home/nicola/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.s
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(MAKE) -f eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/build.make eDO_manual_ctrl/CMakeFiles/edo_manual_ctrl.dir/src/edo_manual_ctrl.cpp.s
 .PHONY : src/edo_manual_ctrl.cpp.s
 
 # Help Target
@@ -503,6 +503,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nicola/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nicola/rpc_module_b/real_edo_catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

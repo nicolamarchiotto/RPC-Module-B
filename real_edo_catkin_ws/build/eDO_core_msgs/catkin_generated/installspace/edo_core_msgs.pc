@@ -1,4 +1,4 @@
-prefix=/home/nicola/real_edo_catkin_ws/install
+prefix=/home/nicola/rpc_module_b/real_edo_catkin_ws/install
 
 Name: edo_core_msgs
 Description: Description of edo_core_msgs

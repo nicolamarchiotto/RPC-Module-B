@@ -67,14 +67,14 @@ set(edo_manual_ctrl_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(edo_manual_ctrl_SOURCE_PREFIX /home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl)
-  set(edo_manual_ctrl_DEVEL_PREFIX /home/nicola/real_edo_catkin_ws/devel)
+  set(edo_manual_ctrl_SOURCE_PREFIX /home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl)
+  set(edo_manual_ctrl_DEVEL_PREFIX /home/nicola/rpc_module_b/real_edo_catkin_ws/devel)
   set(edo_manual_ctrl_INSTALL_PREFIX "")
   set(edo_manual_ctrl_PREFIX ${edo_manual_ctrl_DEVEL_PREFIX})
 else()
   set(edo_manual_ctrl_SOURCE_PREFIX "")
   set(edo_manual_ctrl_DEVEL_PREFIX "")
-  set(edo_manual_ctrl_INSTALL_PREFIX /home/nicola/real_edo_catkin_ws/install)
+  set(edo_manual_ctrl_INSTALL_PREFIX /home/nicola/rpc_module_b/real_edo_catkin_ws/install)
   set(edo_manual_ctrl_PREFIX ${edo_manual_ctrl_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(edo_manual_ctrl_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include " STREQUAL " ")
+if(NOT "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include " STREQUAL " ")
   set(edo_manual_ctrl_INCLUDE_DIRS "")
-  set(_include_dirs "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include")
+  set(_include_dirs "/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "https://github.com/jshelata/edo_manual_ctrl " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/include " STREQUAL "
         message(FATAL_ERROR "Project 'edo_manual_ctrl' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'edo_manual_ctrl' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nicola/real_edo_catkin_ws/src/eDO_manual_ctrl/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'edo_manual_ctrl' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nicola/rpc_module_b/real_edo_catkin_ws/src/eDO_manual_ctrl/${idir}'.  ${_report}")
     endif()
     _list_append_unique(edo_manual_ctrl_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nicola/real_edo_catkin_ws/devel/lib;/home/nicola/real_edo_catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/nicola/rpc_module_b/real_edo_catkin_ws/devel/lib;/home/nicola/rpc_module_b/real_edo_catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
